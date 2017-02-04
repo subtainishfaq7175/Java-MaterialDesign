@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+
+<StackPane fx:id="root" xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/2.2">
+	<VBox maxWidth="400" maxHeight="400" spacing="10">
+		<children>
+
+			<HBox spacing="20" style="-fx-padding: 0 0 0 50;">
+				<children>
+					<JFXButton id="generatetable" prefWidth="100" prefHeight="40" buttonType="RAISED" text="Generate Table" styleClass="custom-jfx-button-raised"></JFXButton>
+				</children>
+			</HBox>
+
+			<HBox spacing="20" style="-fx-padding: 0 0 0 50;">
+				<children>
+					<JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="Available Teachers" styleClass="custom-jfx-button-raised"></JFXButton>
+				</children>
+			</HBox>
+
+			<HBox spacing="20" style="-fx-padding: 0 0 0 50;">
+				<children>
+					<JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="Available Courses" styleClass="custom-jfx-button-raised"></JFXButton>
+				</children>
+			</HBox>
+
+			<HBox spacing="20" style="-fx-padding: 0 0 0 50;">
+				<children>
+					<JFXButton prefWidth="100" prefHeight="40" buttonType="RAISED" text="Available Venues" styleClass="custom-jfx-button-raised"></JFXButton>
+				</children>
+			</HBox>
+		</children>
+	</VBox>
+</StackPane>
+
