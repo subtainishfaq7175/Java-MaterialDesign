@@ -26,7 +26,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.util.Duration;
 
-@FXMLController(value = "/resources/fxml/Main.fxml", title = "Material Design Example")
+@FXMLController(value = "/resources/fxml/Main.fxml", title = "ammaraTimetable")
 public class MainController {
 
 	@FXMLViewFlowContext

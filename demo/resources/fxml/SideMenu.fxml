@@ -22,10 +22,10 @@
 		<Label fx:id="progressbar"> Progress Bar </Label>
 		<Label fx:id="radiobutton"> Radio Button </Label>
 		<Label fx:id="slider"> Slider </Label>
-		<Label fx:id="spinner"> Spinner </Label>-->
-		<Label fx:id="studentView"> Student </Label>
-		<Label fx:id="facultyView">Faculty </Label>
+		<Label fx:id="spinner"> Spinner </Label>
+		<Label fx:id="studentView"> Student </Label>-->
 		<Label fx:id="adminView">  Admin </Label>
+		<Label fx:id="facultyView">Faculty </Label>
 	<!--	<Label fx:id="togglebutton"> Toggle Button </Label>
 		<Label fx:id="popup"> Popup </Label>
 		<Label fx:id="pickers"> Pickers </Label>

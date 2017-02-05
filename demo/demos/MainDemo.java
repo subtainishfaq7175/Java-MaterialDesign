@@ -14,7 +14,8 @@ import javafx.stage.Stage;
 
 public class MainDemo extends Application {
 
-	@FXMLViewFlowContext private ViewFlowContext flowContext;
+	@FXMLViewFlowContext
+	private ViewFlowContext flowContext;
 
 	public static void main(String[] args) {
 		launch(args);

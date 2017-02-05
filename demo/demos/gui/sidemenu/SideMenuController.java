@@ -83,9 +83,9 @@ public class SideMenuController {
 	@ActionTrigger("spinner")
 	private Label spinner;*/
 
-	@FXML
+	/*@FXML
 	@ActionTrigger("studentView")
-	private Label studentView;
+	private Label studentView;*/
 	@FXML
 	@ActionTrigger("adminView")
 	private Label adminView;
@@ -139,7 +139,7 @@ public class SideMenuController {
 		bindNodeToController(radiobutton, RadioButtonController.class, contentFlow, contentFlowHandler);
 		bindNodeToController(slider, SliderController.class, contentFlow, contentFlowHandler);
 		bindNodeToController(spinner, SpinnerController.class, contentFlow, contentFlowHandler);*/
-		bindNodeToController(studentView, TextFieldController.class, contentFlow, contentFlowHandler);
+/*		bindNodeToController(studentView, TextFieldController.class, contentFlow, contentFlowHandler);*/
 		bindNodeToController(facultyView, ComboBoxController.class, contentFlow, contentFlowHandler);
 		bindNodeToController(adminView, ButtonController.class, contentFlow, contentFlowHandler);
 /*		bindNodeToController(togglebutton, ToggleButtonController.class, contentFlow, contentFlowHandler);

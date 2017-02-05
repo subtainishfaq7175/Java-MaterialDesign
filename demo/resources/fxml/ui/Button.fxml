@@ -13,7 +13,7 @@
 
 			<HBox spacing="20" style="-fx-padding: 0 0 0 50;">
 				<children>
-					<JFXButton id="generatetable" prefWidth="100" prefHeight="40" buttonType="RAISED" text="Generate Table" styleClass="custom-jfx-button-raised"></JFXButton>
+					<JFXButton fx:id="generatetable" prefWidth="100" prefHeight="40" buttonType="RAISED" text="Generate Table" styleClass="custom-jfx-button-raised"></JFXButton>
 				</children>
 			</HBox>
 
